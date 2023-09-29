@@ -11,8 +11,12 @@ WORKDIR /app
 # STEP 4: Install required dependencies
 RUN pip install -r requirements.txt
 
+# STEP 5: Add environment variables
+ENV FLASK_APP=app.py
+ENV FLASK_ENV=development
+
 # STEP 6: Expose the port that Flask is running on
 EXPOSE 5000
 
 # Run app.py when the container launches
-CMD ["flask", "run"]
+CMD ["flask", "run", "--host=0.0.0.0"]

@@ -1,0 +1,5 @@
+.env
+requirements.md
+.git
+.gitignore
+__pycache__
