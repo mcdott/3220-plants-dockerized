@@ -2,6 +2,8 @@
 
 Access via browser @ http://plants2.vis.mesmereyes.org/
 
+## ![Uptime Robot status](https://img.shields.io/uptimerobot/status/m795389342-d980ceac18c432b0a1287a1e)
+
 # Run Locally in development mode:
 
 clone to your machine
