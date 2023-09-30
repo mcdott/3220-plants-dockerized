@@ -1,3 +1,12 @@
-# Homework 5: Databases
+# Access via browser:
 
-Follow the [instructions](https://make-school-courses.github.io/WEB-1.1-Web-Architecture/#/Assignments/04-Databases) to complete this assignment!
+Access via browser @ http://plants2.vis.mesmereyes.org/
+
+# Run Locally in development mode:
+
+clone to your machine
+...cd into project directory in terminal
+run: docker-compose up
+Access via browser @ http://0.0.0.0:5001/
+
+when done run: docker-compose down
