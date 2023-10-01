@@ -19,7 +19,7 @@ You can view the deployed application [here](https://plants2.vis.mesmereyes.org/
 1. **Clone the Repository**
 
    ```sh
-   git clone <repository_url> plants-app
+   git clone https://github.com/mcdott/3220-plants-dockerized.git plants-app
    cd plants-app
    ```
 
