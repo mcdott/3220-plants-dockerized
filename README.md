@@ -17,6 +17,7 @@ You can view the deployed application [here](https://plants2.vis.mesmereyes.org/
 ### Steps to Run Locally in development mode
 
 1. **Clone the Repository**
+   Add these commands via your terminal:
 
    ```sh
    git clone https://github.com/mcdott/3220-plants-dockerized.git plants-app
