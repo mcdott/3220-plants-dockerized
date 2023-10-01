@@ -16,7 +16,7 @@ You can view the deployed application [here](https://plants2.vis.mesmereyes.org/
 
 ### Steps to Run Locally in development mode
 
-1. **Clone the Repository**
+1. **Clone the Repository**  
    Add these commands via your terminal:
 
    ```sh
@@ -36,7 +36,7 @@ You can view the deployed application [here](https://plants2.vis.mesmereyes.org/
    http://0.0.0.0:5001/
    ```
 
-4. **Shutdown the Docker Containers**
+4. **Shutdown the Docker Containers**  
    Press Ctrl + C and then run:
    ```sh
    docker-compose down
