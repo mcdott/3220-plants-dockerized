@@ -27,7 +27,7 @@ You can view the deployed application [here](https://plants2.vis.mesmereyes.org/
 2. **Build and Run the Docker Containers**
 
    ```sh
-   docker-compose up --build
+   docker-compose up
    ```
 
 3. **Access via Browser**
