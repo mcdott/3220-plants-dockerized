@@ -1,0 +1,89 @@
+{% extends 'base.html' %} {% block content %}
+
+<main
+  style="
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+  "
+>
+  <section id="content">
+    <h1
+      style="
+        font-size: 2em;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+      "
+    >
+      Blog
+    </h1>
+
+    <article>
+      <h2 style="font-size: 1.8em; margin-bottom: 15px">
+        Deploying My First Flask App with Docker, CapRover, and DigitalOcean
+      </h2>
+      <p style="font-size: 1.2em; font-weight: bold; color: #555">
+        Hello folks!
+      </p>
+      <p>
+        I've just deployed my first Flask app - and this is it! Here's a brief
+        overview of my journey.
+      </p>
+
+      <ol>
+        <li>
+          <strong>Set up:</strong> I started with an existing Flask/MongoDB
+          application in my GitHub repo.
+        </li>
+        <li>
+          <strong>Dockerfile:</strong> I added a Dockerfile to my Flask app to
+          provide a set of instructions to package the app into a Docker
+          container, ensuring consistent environments and smoother deployments.
+        </li>
+        <li>
+          <strong>DigitalOcean & Domain:</strong> Next, I opened a trial account
+          on DigitalOcean to gain access to a “droplet” (a virtual private
+          server). I linked a custom domain I had previously purchased, granting
+          my app its unique web address.
+        </li>
+        <li>
+          <strong>CapRover Deployment:</strong> The CapRover platform simplified
+          the deployment process. Its one-click MongoDB setup required, as
+          advertised, just one click and provided me with a connection string
+          for creating a link to my Flask app. Bundling my app into a .tar file,
+          I deployed my containerized Flask app by simply uploading the .tar
+          file to CapRover. And voilà - here it is live!
+        </li>
+        <li>
+          <strong>Docker-Compose:</strong> To facilitate local development by
+          anyone interested in contributing to my app, I added a
+          docker-compose.yml file to the GitHub repo. This ensures that both the
+          Flask app and MongoDB come up in tandem, initiated with the
+          `docker-compose up` command.
+        </li>
+      </ol>
+
+      <h3 style="font-size: 1.5em; margin-top: 25px; margin-bottom: 15px">
+        Next Steps:
+      </h3>
+      <p>
+        This was one of the simplest deployment processes around, so there’s
+        lots of room for me to level up by exploring the follwing:
+      </p>
+      <ul>
+        <li>Kubernetes for better orchestration</li>
+        <li>CI/CD to automate deployments with Github actions</li>
+        <li>A managed MongoDB service for scalability and maintenance</li>
+      </ul>
+
+      <p>
+        If you want to get your feet wet with a simple deployment process, have
+        a go at deploying with Docker, CapRover, and Digital Ocean.
+      </p>
+    </article>
+  </section>
+</main>
+
+{% endblock content %}
